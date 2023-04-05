@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forms</title>
+</head>
+<body>
+    <center>
+    <h2>Forms in HTML</h2>
+    <fieldset>
+    <form>
+    	<!-- text -->
+    	<label for="name">Name : </label>
+    	<input type="text" name="name" placeholder="Enter Your Name" id="name">
+    	<br><br>
+
+    	<!-- password -->
+    	<label for="password">Password : </label>
+        <input type="pasword" name="password" placeholder="Enter Your Password" id="password" required>
+        <br><br>
+
+        <!-- file -->
+        <label>Resume : </label>
+        <input type="file" name="resume" required>
+        <br><br>
+
+        <!-- radio button -->
+        <input type="radio" name="gender" value="male">
+        <label>Male</label>
+
+        <input type="radio" name="gender" value="female">
+        <label>Female</label>
+        <br><br>
+
+        <!-- checkbox -->
+        <input type="checkbox" name="frontend" value="frontend">
+        <label>HTML and CSS</label>
+
+        <input type="checkbox" name="backend" value="backend">
+        <label>PHP and MySQL</label>
+        <br><br>
+        
+        <!-- Dropdown Type -->
+        <label>Choose a Course :</label>
+        <select name="courses">
+            <option value="C" selected>C</option>
+            <option value="C++">C++</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+        </select>
+        <br><br>
+
+        <!-- Date Type -->
+        <label>DOB :</label>
+        <input type="date" name="date-of-birth" value="DOB">
+
+        <label>Select a Month :</label>
+        <input type="month" name="select-month" value="Month">
+
+        <label>Select a Week :</label>
+        <input type="week" name="select-week" value="Week">
+
+        <label>Select a Time :</label>
+        <input type="time" name="select-time">
+        <br><br>
+
+        <!-- email type -->
+        <label for="email">Enter Your Email :</label>
+        <input type="email" name="email"  id="email" placeholder="Your Email" required>
+        <br><br>
+
+        <!-- number type -->
+        <label>Quantity :</label>
+        <input type="number" name="Quantity" min="0" max="100" step="5" value="20">
+        <br><br>
+
+        <!-- range type -->
+        <label>Volume :</label>
+        <input type="range" name="volume">
+        <br><br>
+
+        <!-- search type -->
+        <label>Search Google :</label>
+        <input type="search" name="serch" placeholder="serch here">
+        <br><br>
+
+        <!-- tel type -->
+        <label>Enter Your Phone Number :</label>
+        <input type="tel" name="phone-no" placeholder="Your Mobile Number">
+        <br><br>
+
+        <!-- url type -->
+        <label>Add Homepage :</label>
+        <input type="url" name="homepage">
+        <br><br>
+
+        <!-- textarea type -->
+        <label>Review of Courses :</label>
+        <textarea name="courses" rows="10" cols="50"></textarea>
+        <br><br>
+
+        <!-- submit button -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+        <!-- <button>Submit</button> -->
+    </form>
+    </fieldset>
+    </center>
+</html>
